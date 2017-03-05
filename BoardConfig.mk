@@ -43,7 +43,7 @@ USE_CLANG_PLATFORM_BUILD := true
 
 # Some framework code requires this to enable BT
 BOARD_HAVE_BLUETOOTH := true
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/qcom/common
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/qcom/common-citrus
 
 USE_OPENGL_RENDERER := true
 BOARD_USE_LEGACY_UI := true
@@ -152,7 +152,7 @@ endif
 #TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_msm
 #TARGET_RECOVERY_UI_LIB := librecovery_ui_msm
 
-TARGET_CRYPTFS_HW_PATH := device/qcom/common/cryptfs_hw
+TARGET_CRYPTFS_HW_PATH := device/qcom/common-citrus/cryptfs_hw
 
 #Add support for firmare upgrade on 8996
 HAVE_SYNAPTICS_DSX_FW_UPGRADE := true
