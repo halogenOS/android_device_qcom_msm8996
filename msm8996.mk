@@ -27,7 +27,7 @@ endif
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapgrowthlimit=256m
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
-$(call inherit-product, device/qcom/common/common64.mk)
+$(call inherit-product, device/qcom/common-citrus/common64.mk)
 
 #msm8996 platform WLAN Chipset
 WLAN_CHIPSET := qca_cld
